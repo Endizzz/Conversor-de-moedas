@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em dolar U$ e em real R$
+  </p>
+  <img src="https://media0.giphy.com/media/XzeRWmW7f5K4kZnrgB/giphy.gif" class="page-logo" alt=""><br><br>
+  <label for="moeda">Insira o valor em dolar US$</label><br>
+  <input type="number" placeholder="Valor em dolar" id="valorDolar" size="2" /><br>
+  <button type="submit" onclick="ConverterDolar()" class="button">Converter para real</button>
+  <h2 id="valorConvertidoReal"></h2>
+  <label for="moeda">Insira o valor em real R$</label><br>
+  <input type="number" placeholder="Valor em real" id="valorReal" size="2" /><br>
+  <button type="submit" class="button" onclick="ConverterReal()">Converter para dolar</button>
+  <h3 id="valorConvertidoDolar"></h3>
+</div>
+<a href="https://codepen.io/Endi_00" target="_blank">
+  <img src="https://pbs.twimg.com/media/E_lEcx7XsAkG1rf?format=png&name=medium" alt="" class="Endi-logo">
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
